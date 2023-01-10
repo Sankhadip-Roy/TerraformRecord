@@ -4,5 +4,5 @@ output "network_IP" {
 }
 output "instance_link" {
   value = google_compute_instance.vm_instance.self_link
-  description = "The URI of the created resource."
+  description = "The URL of the created resource."
 }
